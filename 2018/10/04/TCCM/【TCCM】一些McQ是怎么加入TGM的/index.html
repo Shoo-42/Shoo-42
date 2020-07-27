@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/180.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/32.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/16.ico?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="有料,TCCM," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="随便聊一聊关于McQ是如何跟TP sequel挂钩的始末。因为你显然不用去讲汤是咋跟这项目挂钩的，他几乎就是项目本身x 我不是老粉所以会有旧新闻没有搜集到的地方，我把自己搜到的尽量写全啦。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【TCCM】一些McQ是怎么加入TGM的">
+<meta property="og:url" content="http://yoursite.com/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/index.html">
+<meta property="og:site_name" content="D&#39;Amour">
+<meta property="og:description" content="随便聊一聊关于McQ是如何跟TP sequel挂钩的始末。因为你显然不用去讲汤是咋跟这项目挂钩的，他几乎就是项目本身x 我不是老粉所以会有旧新闻没有搜集到的地方，我把自己搜到的尽量写全啦。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/1.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/5.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/3.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/4.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/2.jpg">
+<meta property="article:published_time" content="2018-10-04T13:49:46.000Z">
+<meta property="article:modified_time" content="2020-07-27T15:49:12.938Z">
+<meta property="article:author" content="Shoo42">
+<meta property="article:tag" content="有料">
+<meta property="article:tag" content="TCCM">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/1.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/10/04/TCCM/【TCCM】一些McQ是怎么加入TGM的/"/>
+
+
+
+
+
+  <title>【TCCM】一些McQ是怎么加入TGM的 | D'Amour</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">D'Amour</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Shoo shoo little bird / Sing my song of love</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-guestbook">
+          <a href="/guestbook/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-comment"></i> <br />
+            
+            guestbook
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Shoo42">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="D'Amour">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">【TCCM】一些McQ是怎么加入TGM的</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-10-04T21:49:46+08:00">
+                2018-10-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/10/04/TCCM/%E3%80%90TCCM%E3%80%91%E4%B8%80%E4%BA%9BMcQ%E6%98%AF%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5TGM%E7%9A%84/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>随便聊一聊关于McQ是如何跟TP sequel挂钩的始末。因为你显然不用去讲汤是咋跟这项目挂钩的，他几乎就是项目本身x</p>
+<p>我不是老粉所以会有旧新闻没有搜集到的地方，我把自己搜到的尽量写全啦。</p>
+<a id="more"></a>
+
+<h1 id="2010"><a href="#2010" class="headerlink" title="2010"></a>2010</h1><p><a href="http://www.vulture.com/2010/10/top_gun_2.html" target="_blank" rel="noopener">http://www.vulture.com/2010/10/top_gun_2.html</a></p>
+<p><a href="http://www.vulture.com/2010/10/top_gun_2_update_tom_cruise_wo.html" target="_blank" rel="noopener">http://www.vulture.com/2010/10/top_gun_2_update_tom_cruise_wo.html</a></p>
+<p>Top Gun sequel和MIGP都能够重启，财政上还是要感谢天舞的老板，汤汤的迷弟，David Ellison。2010年是第一次TP sequel被提起来，就由David牵线。<br>（画外音：这学期还从专业课上学到了David他爹，有种次元墙破裂的fu……）</p>
+<p>创作和剧情上，2010年的时候TP sequel导演仍是Tony Scott，编剧是McQ。那个时候McQ和汤还有另一个Florence的项目，上次讲过，后来也不了了之。【勘误：2008的Valkyrie之后，包括Florence在内McQ和汤有四个合作项目，除了The Tourist都没拍。The Tourist中途汤也没有参与了，这个在Empire 250里讲过，很有趣。】</p>
+<p>后来消息不断但一直没有in production。</p>
+<h1 id="2012"><a href="#2012" class="headerlink" title="2012"></a>2012</h1><p>确切地说是2012年8月19日。</p>
+<p>Tony Scott在LA一座大桥上一跃而下，结束了自己68岁的生命。Top Gun sequel的第一次重启计划流产。</p>
+<p>2012年10月汤和McQ在伦敦拍Reacher的时候还去拜访了Ridley Scott，大概也有表达慰问的目的吧。</p>
+<h1 id="2013"><a href="#2013" class="headerlink" title="2013"></a>2013</h1><p>汤和导演Joseph Kosinski合作了Oblivon（汤在QA上说是因为很喜欢Tron😆），同时McQ在帮汤重写明日边缘的剧本。</p>
+<h1 id="2014"><a href="#2014" class="headerlink" title="2014"></a>2014</h1><p>派拉蒙宣布为重启Top Gun sequel找来了The Jungle Books的编剧Justin Marks，汤也说期待TP重启。但随后就是投入到MIRN的拍摄了。</p>
+<h1 id="2015"><a href="#2015" class="headerlink" title="2015"></a>2015</h1><p>MIRN上映，工作狂人汤制片又紧接着忙起Reacher 2，The Mummy &amp; 美国制造。</p>
+<h1 id="2017"><a href="#2017" class="headerlink" title="2017"></a>2017</h1><p>5月份就有线报传出，曾在Oblivion执导Tom的Joseph是Top Gun sequel的热门人选。过了不久，就正式宣布了Joseph来担任Top Gun sequel的导演。<a href="http://www.comingsoon.net/movies/news/894387-exclusive-joseph-kosinski-talks-top-gun-2-and-tron-3/amp" target="_blank" rel="noopener">http://www.comingsoon.net/movies/news/894387-exclusive-joseph-kosinski-talks-top-gun-2-and-tron-3/amp</a> 17年10月的Joseph专访。</p>
+<h1 id="2018"><a href="#2018" class="headerlink" title="2018"></a>2018</h1><p><img src="1.jpg" alt=""></p>
+<p>05/31. Day one. Feel the need.</p>
+<p>08/29 北京首映，他们宣说，第十部合作是Top Gun。具体可以看之前的北京红毯record （不过应该不是正式的宣（。</p>
+<p>然后就是09/18被拍到聊天&amp;一起在快艇上考察filming location</p>
+<p>聊天：<a href="http://lets-take-a-walk.lofter.com/post/1fe14dfe_12a7cb17d" target="_blank" rel="noopener">http://lets-take-a-walk.lofter.com/post/1fe14dfe_12a7cb17d</a></p>
+<p>快艇：<a href="http://lets-take-a-walk.lofter.com/post/1fe14dfe_12a9cf311" target="_blank" rel="noopener">http://lets-take-a-walk.lofter.com/post/1fe14dfe_12a9cf311</a></p>
+<p>09/22一起吃饭：<a href="http://lets-take-a-walk.lofter.com/post/1fe14dfe_12ab17202" target="_blank" rel="noopener">http://lets-take-a-walk.lofter.com/post/1fe14dfe_12ab17202</a></p>
+<p>不过这个应该不算工作进程？真滴很想吐槽这两个人工作和私生活完全分不清楚啊😅</p>
+<p>09/23 McQ更了一张汤带他飞p51的照片（2020的补充：2月的EMP采访补充了一些细节，但俺懒得写了……也很甜！）</p>
+<p><img src="5.jpg" alt=""></p>
+<p>简直了，也就直男能有这种蜜汁正直的气场，换别人早就一把24k上古金锁锁一起钥匙扔到洛杉矶国家公园星战峡谷最深的沟壑里了！</p>
+<p>09/24</p>
+<p><img src="3.jpg" alt=""><br><img src="4.jpg" alt=""></p>
+<p>Collider在LA办Fallout的IMAX screening，McQ去做了场映后QA。提到23号发的照片，McQ表示，哈，什么Top Gun，不知道耶！</p>
+<p>McQ说12年前Valkyrie筹拍的时候，他和Nathan正在德国考察历史和拍摄地，结果在LA的大家都飞到了p51，而他和Nathan只能对着图片望洋兴叹。那之后他和汤就一直很忙，直到最近才finally got to try。所以如果他有post什么p51的东西那这就是全部故事咯～</p>
+<p>Collider小编Weintraub听后表示觉得自己被耍了（。</p>
+<p>我内心：为什么会觉得这比直接宣合作好？？只会给人一种“大家好，其实我们没有在工作，我们在约会”的感觉啊？？？</p>
+<p>不过故事应该是真的，而McQ是否真的在和汤合作Top Gun sequel……</p>
+<p>10/01 McQ又更新了一张p51 见P2</p>
+<p><img src="2.jpg" alt=""></p>
+<p>所以我们仍未知道杰个大驴蹄子到底有没有在工作，但我们至少可以知道，（划掉）他们真的在约会（划掉）  </p>
+<p>不，请西皮粉理性面对，不就是某编剧记着自己没能坐某飞行员的p51记了12年，然后某飞行员最近只不过恰巧带他飞了两次嘛！都不是事儿！某飞行员也开p51飞过斯皮尔伯格！（老斯：忽然提我什么事？？？）</p>
+<p>11/01 帝国杂志12月刊</p>
+<p>「《壮志凌云》是我们第十部合作项目。」</p>
+<p>Okay，猜了两个月终于宣了。</p>
+<p>Fallout导评也有说hhhh</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E6%9C%89%E6%96%99/" rel="tag"># 有料</a>
+          
+            <a href="/tags/TCCM/" rel="tag"># TCCM</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/07/17/Personal/%E8%BF%91%E8%AF%BB%E8%BF%91%E7%9C%8B/" rel="next" title="近读近看">
+                <i class="fa fa-chevron-left"></i> 近读近看
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/11/15/TCCM/%E3%80%90TCCM%E3%80%91%E6%A2%A6%E4%B9%8B%E9%98%9F%E2%80%94%E2%80%94%E3%80%8A%E7%A2%9F%E4%B8%AD%E8%B0%8D%EF%BC%9A%E5%85%A8%E9%9D%A2%E7%93%A6%E8%A7%A3%E3%80%8B/" rel="prev" title="【TCCM】梦之队——《碟中谍：全面瓦解》">
+                【TCCM】梦之队——《碟中谍：全面瓦解》 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.png"
+                alt="Shoo42" />
+            
+              <p class="site-author-name" itemprop="name">Shoo42</p>
+              <p class="site-description motion-element" itemprop="description">A personal fanwork blog.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives">
+              
+                  <span class="site-state-item-count">23</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#2010"><span class="nav-number">1.</span> <span class="nav-text">2010</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2012"><span class="nav-number">2.</span> <span class="nav-text">2012</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2013"><span class="nav-number">3.</span> <span class="nav-text">2013</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2014"><span class="nav-number">4.</span> <span class="nav-text">2014</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2015"><span class="nav-number">5.</span> <span class="nav-text">2015</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2017"><span class="nav-number">6.</span> <span class="nav-text">2017</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2018"><span class="nav-number">7.</span> <span class="nav-text">2018</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Shoo42</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: true,
+        appId: 'DpovMgRmpkp0ktmCuitXhCun-MdYXbMMI',
+        appKey: 'vtGhh2NYLxhdIAGnOFTn0ND6',
+        placeholder: 'Leave some comments here...',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
